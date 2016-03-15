@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Assignment: Slideshow with Parallax Effect</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <main>
+			<header>
+				<h1>Assignment: CSS Only Slideshow <span>with Parallax Effect</span></h1>
+			</header>
+			
+			<section class="sp-slideshow">
+				<input id="button-1" type="radio" name="radio-set" class="sp-selector-1" checked="checked" />
+				<label for="button-1" class="button-label-1"></label>
+				
+				<input id="button-2" type="radio" name="radio-set" class="sp-selector-2" />
+				<label for="button-2" class="button-label-2"></label>
+				
+				<input id="button-3" type="radio" name="radio-set" class="sp-selector-3" />
+				<label for="button-3" class="button-label-3"></label>
+				
+				<input id="button-4" type="radio" name="radio-set" class="sp-selector-4" />
+				<label for="button-4" class="button-label-4"></label>
+				
+				<input id="button-5" type="radio" name="radio-set" class="sp-selector-5" />
+				<label for="button-5" class="button-label-5"></label>
+				
+				<label for="button-1" class="sp-arrow sp-a1"></label>
+				<label for="button-2" class="sp-arrow sp-a2"></label>
+				<label for="button-3" class="sp-arrow sp-a3"></label>
+				<label for="button-4" class="sp-arrow sp-a4"></label>
+				<label for="button-5" class="sp-arrow sp-a5"></label>
+				
+				<div class="sp-content">
+					<div class="sp-parallax-bg"></div>
+					<ul class="sp-slider clearfix">
+						<li><img src="images/image1.png" alt="image01" /></li>
+						<li><img src="images/image2.png" alt="image02" /></li>
+						<li><img src="images/image3.png" alt="image03" /></li>
+						<li><img src="images/image4.png" alt="image04" /></li>
+						<li><img src="images/image5.png" alt="image05" /></li>
+					</ul>
+				</div>
+			</section>
+			<section>
+                           <h1>Task</h1>
+                           <p>
+                              Add transition/animate css properties to implement smooth and <a href="http://en.wikipedia.org/wiki/Parallax_scrolling">parallax scrolling</a> for slideshow widget.
+                              Now all slideshow steps are executed immediately. To archive parallax effect plese use different speed for background (world map) and foreground (slides):  
+                           </p>
+                           <ol>
+                                <li>Assign "linear" animation with 0.7s duration for background moving.</li>
+                                <li>Assign "ease-in" animation with 0.8s duration for foreground moving.</li>
+                                <li>Assign "ease-in" animation with 0.8s duration and 0.4s delay for opacity when foreground started to move.</li>
+                            </ol>  
+                            <p>
+                              The archived result has to be simular to this video:
+                           </p>
+                           <img src="images/result.gif" alt="Result" />
+			</section>
+                       
+		</main>
+	</body>
+</html>
